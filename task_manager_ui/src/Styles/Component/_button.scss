@@ -1,0 +1,29 @@
+@import '../Abstract/variable';
+
+
+.ant-btn-default:hover{
+    border: none !important;
+}
+.fos-btn-primary{
+    background: $primary !important;
+    color: $white !important;
+    width: 150px;
+    margin-right: 20px;
+}
+.fos-btn-border{
+    background: none !important;
+    border: solid 1px $primary !important;
+    color: $primary !important;
+    width: 150px;
+    margin-right: 20px;
+}
+.fos-btn-danger{
+    background: $danger !important;
+    color: $white !important;
+    width: 150px;
+    margin-right: 20px;
+}
+.fos-success{
+    color: $yellow !important;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import '../Styles/Abstract/media-query';
+@import '../Styles/Abstract/variable';
+
+@import '../Styles/Base/reset';
+
+@import '../Styles/Component/button';
+@import '../Styles/Component/component';
+@import '../Styles/Component/font';
+
+@import '../Styles/Layout/footer';
+@import '../Styles/Layout/header';
+@import '../Styles/Layout/sidebar';
+
+@import '../Styles/Pages/about';
+@import '../Styles/Pages/contact';
+@import '../Styles/Pages/register';
+
+@import '../Styles/Vendors/ant-design';
+@import '../Styles/Vendors/bootstrap';
+
+body{
+    color: $black;
+}

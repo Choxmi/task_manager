@@ -1,0 +1,7 @@
+$medium: 900px;
+
+.web-only {
+    @media screen and (max-width: $medium) {
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+@import '../Abstract/variable';
+.fos-logo{
+    color: $primary;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fos-heading{
+    font-weight: bold;
+    font-size: 25px;
+    color: $black;
+}
+.fos-heading-small{
+    color: $black;
+    font-size: 16px;
+}
+.fos-card{
+    padding: 10px !important;
+    height: 120px;
+    color: $black;
+}
+.fos-card:hover {
+    cursor: pointer;
+}
+.fos-card-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: $black;
+}
+
+.fos-card-icon {
+    font-size: 25px;
+    font-weight: bold;
+    color: $black;
+}
+.fos-card-description{
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    color: $black;
+}
+.fos-label{
+    color: $ash;
+}
+.fos-label-detail{
+    color: $black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fos-purple{
+    color: $purple;
+}
+.fos-pink{
+    color: $pink;
+}
+.fos-blue{
+    color: $blue;
+}
+.fos-yellow{
+    color: $yellow;
+}

@@ -1,0 +1,40 @@
+@import '../Abstract/variable';
+
+.ant-layout-content{
+    margin: 0 !important;
+}
+.ant-card-body{
+    padding: 10px !important;
+}
+
+.ant-space-item, .ant-dropdown-menu-title-content{
+    color: $black !important;
+}
+.ant-layout-sider{
+    background-color: $white !important;
+}
+.ant-menu-item{
+    color: $black;
+    height: 60px;
+}
+.ant-menu-inline
+{
+    .ant-menu-item{
+       
+        height: 60px !important;
+    }
+}
+.ant-menu{
+    .ant-menu-item-selected {
+        background: none !important;
+        color: $primary !important;
+    }
+}
+.ant-space-item{
+    display: flex;
+}
+.ant-menu {
+    .ant-menu-submenu-arrow {
+        top: 57% !important;
+    }
+}
